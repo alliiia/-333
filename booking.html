@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+ 
+    <!-- Подключение сброса стилей -->
+    <link rel="stylesheet" href="reset.css" >
+ 
+    <!-- Подключение файла стилей -->
+    <link rel="stylesheet" href="assets/css/style_booking.css" >
+   
+    <title>Форма обратной связи</title>
+  </head>
+  <body>
+    <header class="header2" id="header">
+      <div class="container">
+          <div class="header_inner">
+              <div  ><a href="index.html"><img src="assets/images/Лого.svg" class="header_logo"></a></div>
+  
+              <nav class="nav" id="nav">
+                  <a class="nav_link" href="about.html">О нас</a>
+                  <a class="nav_link" href="booking.html" >Забронировать юрту</a>
+                  <a class="nav_link" href="authorization.html" >Войти</a>
+                  <a class="nav_link" href="registration.html" >Регистрация</a>
+              </nav>
+  
+              <button class="nav-toggle" id="nav_toggle" type="button">
+                  <span class="nav-toggle_item">Menu</span>
+              </button>
+          </div>
+      </div>
+  </header>
+  
+    <!-- Контейнер выравнивает по ширине и по центру -->
+    <section class="container2">
+    <div >
+ 
+      <!-- content содержит содержимое формы -->
+      <div class="content2">
+ 
+      
+ 
+        <!-- Правая колонка: сама форма -->
+        <div class="right-side">
+ 
+          <!-- Заголовок для формы -->
+          <div class="section__header">
+  
+            <h2 class="section__title">Забронировать юрту</h2>
+           
+        </div>
+ 
+          <!-- Какой-то дополнительный текст -->
+          <p>
+            Пожалуйста, выберите юрту, которую вы хотите забронировать и укажите ваши актуальные данные
+          </p>
+ 
+          <!-- Форма обратной связи -->
+          <form action="#">
+ 
+            <!-- Каждый input для выравнивания вкладываем в блок input-box -->
+            <div class="select">
+            <select name="character" placeholder="Юрта" >
+                <option value="H">Юрта -люкс</option>
+                <option value="Me">Юрта "Горный баран"</option>
+                <option value="B">Юрта "Золотой грифон"</option>
+                <option value="L">Юрта "Степной волк"</option>
+                <option value="M">Юрта "Быстрая лошадь"</option>
+                <option value="M">Юрта "Вольный орёл"</option>
+                <option value="M">Юрта "Благородный медведь"</option>
+              </select></p>    <p class="text-date">Дата заезда<input type="date" placeholder="Дата">
+                Дата выезда<input type="date" placeholder="Дата"></p>
+            </div>
+        
+            
+            <div class="input-box">
+              <input type="text" placeholder="Ваше имя" />
+            </div>
+            <div class="input-box">
+              <input type="email" placeholder="Введите email" />
+            </div>
+            <div class="input-box">
+              <input type="tel" placeholder="Введите телефон" />
+            </div>
+            <p class="se">Дополнительные услуги</p>
+            <div class="radio"><input type="radio" name="" value="a1">Встреча с шаманом<Br>
+            <input type="radio" name="" value="a2">Фотограф<Br>
+            <input type="radio" name="" value="a3">Экскурсия</div>
+            
+            <div class="input-box message-box">
+              <textarea placeholder="Сообщение"></textarea>
+            </div>
+            <div class="se">
+                <p class="se">Итоговая стоимость:30000p</p>
+            </div>
+            <div class="button">
+              <input type="button" value="Отправить" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+ </section>
+
+ <footer class="footer" id="footer">
+  <div class="containerr">
+
+      <div class="footer__inner">
+          <div class="footer__col  footer__col--first">
+     
+              <a class="footer_nav" href="index.html">Главная</a>
+                  <a class="footer_nav" href="about.html" >О нас</a>
+                  <a class="footer_nav" href="booking.html">Забронировать юрту</a>
+                  <a class="footer_nav" href="yrta1.html" >Юрты</a>
+                  <a class="footer_nav" href="#" >Авторизация</a>
+                 
+                  <div class="footer__social">
+                   
+                    <p>+7 (983) 279-10-38
+                    </p>
+
+            
+          </div><!-- /.footer__col -->
+
+         
+  </div><!-- /.container -->
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/app.js"></script>
+  </body>
+</html>
+
