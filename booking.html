@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
  
-    <!-- Подключение сброса стилей -->
+
     <link rel="stylesheet" href="reset.css" >
- 
-    <!-- Подключение файла стилей -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Montserrat:wght@200;300;400 & family = Poppins & family= Red+Hat+Display & display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="assets/css/style_booking.css" >
    
     <title>Форма обратной связи</title>
@@ -33,34 +35,27 @@
       </div>
   </header>
   
-    <!-- Контейнер выравнивает по ширине и по центру -->
     <section class="container2">
     <div >
- 
-      <!-- content содержит содержимое формы -->
       <div class="content2">
- 
-      
- 
-        <!-- Правая колонка: сама форма -->
+
         <div class="right-side">
  
-          <!-- Заголовок для формы -->
+        
           <div class="section__header">
   
             <h2 class="section__title">Забронировать юрту</h2>
            
         </div>
  
-          <!-- Какой-то дополнительный текст -->
+      
           <p>
             Пожалуйста, выберите юрту, которую вы хотите забронировать и укажите ваши актуальные данные
           </p>
  
-          <!-- Форма обратной связи -->
           <form action="#">
  
-            <!-- Каждый input для выравнивания вкладываем в блок input-box -->
+          
             <div class="select">
             <select name="character" placeholder="Юрта" >
                 <option value="H">Юрта -люкс</option>
@@ -70,19 +65,19 @@
                 <option value="M">Юрта "Быстрая лошадь"</option>
                 <option value="M">Юрта "Вольный орёл"</option>
                 <option value="M">Юрта "Благородный медведь"</option>
-              </select></p>    <p class="text-date">Дата заезда<input type="date" placeholder="Дата">
-                Дата выезда<input type="date" placeholder="Дата"></p>
+              </select></p>    <p class="text-date">Дата <input type="date" placeholder="Дата">
+                 </p>
             </div>
         
             
             <div class="input-box">
-              <input type="text" placeholder="Ваше имя" />
+              <input type="text" placeholder="Ваше имя" >
             </div>
             <div class="input-box">
-              <input type="email" placeholder="Введите email" />
+              <input type="text" placeholder="Введите email" name="email" required>
             </div>
             <div class="input-box">
-              <input type="tel" placeholder="Введите телефон" />
+              <input type="tel" placeholder="Введите телефон" >
             </div>
             <p class="se">Дополнительные услуги</p>
             <div class="radio"><input type="radio" name="" value="a1">Встреча с шаманом<Br>
@@ -122,10 +117,10 @@
                     </p>
 
             
-          </div><!-- /.footer__col -->
+          </div>
 
          
-  </div><!-- /.container -->
+  </div>
 </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
